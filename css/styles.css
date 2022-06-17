@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 15px;
+}
+
+.top-header {
+  height: 100px;
+  width: auto;
+  margin: 0px;
+}
+
+.left {
+  display: inline-block;
+  height: 40px;
+  width: 10%;
+  position: absolute;
+  margin: 0 auto 10px auto;
+}
+
+.right {
+  position: absolute;
+  right: 200px;
+  height: 60px;
+  width: 50%;
+  margin: 20px 0 0 0;
+}
+
+.div2 {
+  display: block;
+  width: 50px;
+  margin: 0px auto;
+  height: 84px;
+  width: 90%;
+}
+
+ul a {
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 10px;
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  margin: auto;
+}
+
+ul {
+  display: inline-block;
+  margin-top: 5px;
+  position: absolute;
+  width: 100%;
+  right: 0.5%;
+}
+
+.logo {
+  margin-top: 80px;
+  width: 107px;
+  margin-left: -3px;
+}
+
+img {
+  position: absolute;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  top: 24px;
+  filter: invert(100%);
+}
+
+.content {
+  width: auto;
+  height: 100px;
+}
+
+.heading h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 120px;
+  margin-bottom: 0px;
+}
+
+.heading p {
+  margin-bottom: 500px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.heading h1 span {
+  color: yellow;
+}
+
+.button {
+  height: 50px;
+  width: 600px;
+  position: absolute;
+  left: 328px;
+
+  top: 450px;
+}
+
+button {
+  width: auto;
+  height: 55px;
+  margin: 0 15px;
+  border: none;
+  padding: 0 70px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: lato;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+}
+
+.learn-more {
+  text-align: center;
+  margin: auto;
+  border: 2px solid white;
+  background-color: rgba(55, 52, 52, 0.267);
+}
+
+.learn-more:hover {
+  background-color: transparent;
+}
+
+.download {
+  background-color: #f1d214;
+}
+
+.download:hover {
+  background-color: rgb(211, 51, 211);
+}
